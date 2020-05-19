@@ -39,12 +39,12 @@
             this.username = new Bunifu.Framework.UI.BunifuTextbox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.password = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.password = new System.Windows.Forms.TextBox();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -181,6 +181,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(873, 6);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -211,54 +212,17 @@
             this.bunifuGradientPanel2.Size = new System.Drawing.Size(452, 318);
             this.bunifuGradientPanel2.TabIndex = 1;
             // 
-            // password
+            // label7
             // 
-            this.password.BackColor = System.Drawing.Color.White;
-            this.password.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.password.Font = new System.Drawing.Font("CHULALONGKORN", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.password.Location = new System.Drawing.Point(591, 372);
-            this.password.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(213, 24);
-            this.password.TabIndex = 1;
-            this.password.UseSystemPasswordChar = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("CHULALONGKORN", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(56, 66);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(354, 31);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "ที่พักสุดหรูริมหาด เหมาะสำหรับทุกวันพักผ่อนของครอบครัว";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("CHULALONGKORN", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(85, 97);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(265, 31);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "นำเสนอทั้งกิจกรรมกีฬาทางน้ำสำหรับผู้ใหญ่";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("CHULALONGKORN", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(108, 128);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(220, 31);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "และกิจกรรมสนุกสนานสำหรับเด็กๆ ";
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("CHULALONGKORN", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(103, 193);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(225, 36);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "ราคาเริ่มต้นที่ 1,000++ ต่อคืน";
             // 
             // label6
             // 
@@ -272,17 +236,54 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "เพื่อให้วันพักผ่อนของทุกคนสมบูรณ์แบบที่สุด";
             // 
-            // label7
+            // label5
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("CHULALONGKORN", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(103, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(225, 36);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "ราคาเริ่มต้นที่ 1,000++ ต่อคืน";
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("CHULALONGKORN", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(108, 128);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(220, 31);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "และกิจกรรมสนุกสนานสำหรับเด็กๆ ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("CHULALONGKORN", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(85, 97);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(265, 31);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "นำเสนอทั้งกิจกรรมกีฬาทางน้ำสำหรับผู้ใหญ่";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("CHULALONGKORN", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(56, 66);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(354, 31);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "ที่พักสุดหรูริมหาด เหมาะสำหรับทุกวันพักผ่อนของครอบครัว";
+            // 
+            // password
+            // 
+            this.password.BackColor = System.Drawing.Color.White;
+            this.password.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.password.Font = new System.Drawing.Font("CHULALONGKORN", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.password.Location = new System.Drawing.Point(591, 372);
+            this.password.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.password.Name = "password";
+            this.password.Size = new System.Drawing.Size(213, 24);
+            this.password.TabIndex = 1;
+            this.password.UseSystemPasswordChar = true;
             // 
             // Form1
             // 

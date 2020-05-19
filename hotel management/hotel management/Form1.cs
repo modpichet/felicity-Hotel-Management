@@ -17,12 +17,13 @@ namespace hotel_management
         {
             InitializeComponent();
         }
-
+        //ออกจากโปรแกรม
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        //เมื่อกดปุ่ม login
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
            
